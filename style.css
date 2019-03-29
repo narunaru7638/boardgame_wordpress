@@ -116,7 +116,7 @@ a:hover {
 
 #top-nav ul{
     overflow: hidden;
-    position: relative;
+/*    position: relative;*/
     margin: 0 auto;
     width: 940px;
 }
@@ -139,7 +139,7 @@ HOMEページ
 =============================================
 */
 /*homeページ*/
-#home #home{
+#home{
     overflow: hidden;
     width: 90%;
     margin: 0 auto;
