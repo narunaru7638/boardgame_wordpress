@@ -1,0 +1,248 @@
+/*
+Theme Name: サンプルテーマ
+Author: なる
+Description: ボードゲームサークル用に作ったテーマです。
+*/
+
+
+* {
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*サイトレイアウト*/
+.site-width{
+    width: 100%;
+}
+
+.page-3colum #content{
+    width: 50%;
+}
+
+
+/*トップサークル名*/
+#top-circle-name{
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.87);
+    color: rgba(255,255,255,1.00);
+}
+
+#top-circle-name h1{
+    font-family: "Nico Moji";
+    font-size: 50px;
+    padding: 10px 30px;
+    float: left;
+}
+
+#top-circle-name p{
+    line-height: 70px;
+    float: left;
+}
+
+#top-circle-name i{
+    float: right;
+    font-size: 3em;
+    line-height: 70px;
+    margin-right: 10px;
+}
+
+#top-circle-name a{
+    text-decoration: none;
+    color: rgba(255,255,255,1.00);
+}
+
+/*トップグローバルナビゲーション*/
+#top-nav{
+    overflow: hidden;
+    background-color: rgba(255,255,255,1.00);
+    color: rgba(0,0,0,0.87);
+    height: 50px;
+    vertical-align: middle;
+    line-height: 50px;
+    position: relative;
+
+}
+
+#top-nav li{
+    float: left;
+    list-style: none;
+    border-bottom: none;
+    margin: 0 30px 0;
+    font-size: 20px;
+
+}
+
+#top-nav li i{
+    font-size: 1.5em;
+    display: block;
+    vertical-align: middle;
+    line-height: 50px;
+    margin-right:10px;
+}
+
+#top-nav li a{
+    text-decoration: none;
+}
+
+#top-nav li a:hover{
+    text-decoration: underline;
+}
+
+
+#top-nav li a,
+#top-nav li a:active,
+#top-nav li a:focus {
+    color: rgba(0,0,0,0.87);
+}
+
+#top-nav ul{
+    overflow: hidden;
+    margin: 0px;
+    margin: 0 auto;
+/*
+    position: absolute;
+    left: 250px;
+*/
+}
+
+
+/*トップバナー*/
+#top-baner{
+    width: 100%;
+    margin: 0;
+    display: block;
+    box-sizing: border-box;
+}
+
+/*mainページ*/
+#main{
+    background-color: rgba(0,0,0,0.08);
+}
+
+/*homeページ*/
+#home{
+    overflow: hidden;
+}
+
+/*サイドバー関連*/
+
+.sidebar-title{
+    background-color: rgba(0,0,0,0.87);
+    color: rgba(255,255,255,1.00);
+    text-align: center;
+}
+
+.sidebar{
+    width: 25%;
+    margin: 10px;
+
+}
+
+/*レフトサイドバー*/
+#left-sidebar{
+    float: left;
+
+}
+
+.sidebar-item{
+    margin: 10px;
+    background-color: rgba(255,255,255,1.00);
+}
+/*ライトサイドバー*/
+#right-sidebar{
+    float: right;
+}
+
+
+
+/*フッター*/
+footer{
+    overflow: hidden;
+}
+
+/*ボトムサークル名*/
+/*
+#bottom-circle-name{
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.87);
+    color: rgba(255,255,255,1.00);
+    width: 50%;
+    float: left;
+}
+
+#bottom-circle-name h1{
+    font-family: "Nico Moji";
+    font-size: 20px;
+    padding: 5px 5px;
+    float: left;
+}
+
+#bottom-circle-name p{
+    line-height: 70px;
+    float: left;
+}
+
+#bottom-circle-name i{
+    float: right;
+    font-size: 3em;
+    line-height: 70px;
+    margin-right: 10px;
+}
+
+#bottom-circle-name a{
+    text-decoration: none;
+    color: rgba(255,255,255,1.00);
+}
+*/
+
+/*ボトムグローバルナビゲーション*/
+/*
+#bottom-nav{
+    float: left;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.87);
+    color: rgba(255,255,255,1.00);
+    height: 50px;
+    vertical-align: middle;
+    line-height: 10px;
+    width: 50%;
+}
+
+#bottom-nav li{
+    float: left;
+    list-style: none;
+    border-bottom: none;
+    margin: 0 30px 0;
+    font-size: 20px;
+}
+
+#bottom-nav li i{
+    font-size: 0.5em;
+    display: block;
+    vertical-align: middle;
+    line-height: 50px;
+    margin-right:10px;
+}
+
+#bottom-nav li a{
+    text-decoration: none;
+}
+
+#bottom-nav li a:hover{
+    text-decoration: underline;
+}
+
+
+#bottom-nav li a,
+#bottom-nav li a:active,
+#bottom-nav li a:focus {
+    color: rgba(255,255,255,1.00);;
+}
+
+
+#bottom-nav ul{
+    overflow: hidden;
+    margin: 0px;
+    margin: 0 auto;
+}*/
