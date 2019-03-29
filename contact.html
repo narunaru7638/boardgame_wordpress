@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+    <head>
+        <meta charset="utf-8">
+        <title>ボードゲームサークル用ページ</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    </head>
+
+    <body class="page-1colum">
+
+        <!-- メニュー -->
+        <header class="site-width">
+            <!-- トップサークル名-->
+            <div id="top-circle-name" class="site-width">
+                <h1><a href="index.html">ボドゲサークル</a></h1>
+                <p class="cicle-detail">いろいろ作っているサークルです</p>
+                <a href="">
+                    <i class="fab fa-twitter-square"></i></a>
+            </div> 
+            <!-- トップグローバルナビゲーション-->
+            <nav id="top-nav" class="site-width">
+                <ul>
+                    <li><a href="about.html"><i class="fas fa-question-circle"></i>ABOUT</a></li>
+                    <li><a href="products.html"><i class="fas fa-gift"></i>PRODUCTS</a></li>
+                    <li><a href="events.html"><i class="fas fa-bell"></i>EVENTS</a></li>
+                    <li><a href="news.html"><i class="fas fa-newspaper"></i>NEWS</a></li>
+                    <li><a href="contact.html"><i class="fas fa-envelope"></i>CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- メインコンテンツ -->
+        <div id="main" class="site-width">
+            <div class="form-area">
+                <form>
+                    <h2>CONTACT</h2>
+                    <div class="err-msg">
+                        エラーが発生しました。しばらくしてからやり直してください。
+                    </div>
+                    <label>
+                        <h3>お名前（必須）</h3>
+                        <input type="text" name="username">
+                    </label>
+                    <div class="err-msg">
+                        お名前が入力されておりません。
+                    </div>
+                    <label>
+                        <h3>メールアドレス（必須）</h3>
+                        <input type="text" name="email">
+                    </label>
+                    <div class="err-msg">
+                        メールアドレスが入力されておりません。
+                    </div>
+
+                    <label>
+                        <h3>お問い合わせ内容（必須）</h3>
+                        <textarea class="js-count" cols="50" rows="50" style="height:350px;"></textarea>
+                        <span class="js-count-view">0</span>/255
+                    </label>
+
+                    <div class="err-msg">
+                        お問い合わせ内容が入力されておりません。
+                    </div>
+
+
+                    <div class="btn-container">
+                        <input type="submit" class="btn btn-mid" value="送信">
+                    </div>
+
+
+                </form>
+            </div>
+
+        </div>
+
+        <!-- footer -->
+        <footer>
+            <nav id="bottom-nav">
+                <div class="bottom-nav-area">
+                    <h1><a href="index.html">ボドゲサークル</a></h1>
+
+                    <p class="cicle-detail">｜いろいろ作っているサークルです</p>
+
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <ul>
+                        <li><a href="about.html">ABOUT</a>｜</li>
+                        <li><a href="products.html">PRODUCTS</a>｜</li>
+                        <li><a href="events.html">EVENTS</a>｜</li>
+                        <li><a href="news.html">NEWS</a>｜</li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p id="copyright">Copyright <a href="https://twitter.com/narumismis">なる</a>. All Rights Reserved.</p>
+        </footer>
+
+    </body>
+</html>
