@@ -75,7 +75,6 @@ Description: ボードゲームサークル用に作ったテーマです。
 
 #top-nav li i{
     font-size: 1.5em;
-    display: block;
     vertical-align: middle;
     line-height: 50px;
     margin-right:10px;
@@ -98,12 +97,9 @@ Description: ボードゲームサークル用に作ったテーマです。
 
 #top-nav ul{
     overflow: hidden;
-    margin: 0px;
     margin: 0 auto;
-/*
     position: absolute;
     left: 250px;
-*/
 }
 
 
@@ -162,7 +158,6 @@ footer{
 }
 
 /*ボトムサークル名*/
-/*
 #bottom-circle-name{
     overflow: hidden;
     background-color: rgba(0,0,0,0.87);
@@ -194,10 +189,9 @@ footer{
     text-decoration: none;
     color: rgba(255,255,255,1.00);
 }
-*/
 
 /*ボトムグローバルナビゲーション*/
-/*
+
 #bottom-nav{
     float: left;
     overflow: hidden;
@@ -245,4 +239,4 @@ footer{
     overflow: hidden;
     margin: 0px;
     margin: 0 auto;
-}*/
+}
