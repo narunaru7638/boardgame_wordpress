@@ -32,6 +32,9 @@ a:hover {
 #main{
     background-color: rgba(0,0,0,0.08);
 }
+.page-1colum #main{
+    padding: 30px 0 30px;
+}
 
 /*
 =============================================
@@ -348,7 +351,7 @@ CONTACTページ
 =============================================
 */
 form{
-    width: 40%;
+    width: 53%;
     text-align: center;
     margin: 0 auto;
     background-color:rgba(255,255,255,1.00);
@@ -366,74 +369,7 @@ form label{
 }
 
 .form-area{
-    padding: 46px;
-}
-
-
-form .err-msg{
-    margin: 15px 0px 30px;
-
-}
-
-input[type="text"], textarea {
-    display: block;
-    box-sizing: border-box;
-    margin: 0 auto;
-    padding: 10px;
-    width: 80%;
-    height: 60px;
-    border: solid 1px rgba(0,0,0,0.12);
-
-    background: rgba(0,0,0,0.08);
-    font-size: 18px;
-}
-
-.btn-container{
-    overflow: hidden;
-}
-
-input[type="submit"]{
-    float: right;
-    background-color: rgba(0,0,0,0.86);
-    color:rgba(255,255,255,1.00);
-    font-size: 20px;
-    padding: 10px 30px;
-    margin: 0 55px 15px;
-}
-
-input[type="submit"]:hover{
-    cursor: pointer;
-
-}
-.err-msg{
-    color: red;
-}
-
-/*
-=============================================
-CONTACTページ
-=============================================
-*/
-form{
-    width: 40%;
-    text-align: center;
-    margin: 0 auto;
-    background-color:rgba(255,255,255,1.00);
-
-}
-
-form h2{
-    background-color: rgba(0,0,0,0.87);
-    color: rgba(255,255,255,1.00);
-    padding: 10px;
-} 
-
-form label{
-    width: 100%;
-}
-
-.form-area{
-    padding: 46px;
+/*    padding: 46px;*/
 }
 
 
@@ -475,6 +411,73 @@ input[type="submit"]:hover{
 .err-msg{
     color: red;
 }
+
+/*
+=============================================
+EVENTSページ
+=============================================
+*/
+
+.event-area{
+    width: 53%;
+    margin: 0px auto;
+    padding: 0px 0px;
+    background-color: rgba(255,255,255,1.00);
+    
+}
+.event-pic{
+    width: 100%;
+/*    padding: 15px 30px 0;*/
+    box-sizing: border-box;
+    
+}
+
+.event-area h2{
+    background-color: rgba(0,0,0,0.87);
+    color: rgba(255,255,255,1.00);
+    padding: 10px;
+    text-align: center;
+} 
+
+.event-area p{
+    padding: 0 15px 0;
+    color: rgba(0,0,0,0.54);
+}
+
+.event-area h3{
+    text-align: center;
+    font-size: 25px;
+    margin: 30px 0 10px;
+}
+
+
+/*
+=============================================
+ABOUTページ
+=============================================
+*/
+.prof-area{
+    overflow: hidden;
+}
+
+.prof-area img{
+    float: left;
+    Width: 40%;
+    padding: 0 15px 0;
+    box-sizing: border-box
+}
+
+.prof-area p{
+    float: left;
+    width: 55%;
+}
+
+.event-area th,
+.event-area td,{
+    color: rgba(0,0,0,0.54);
+
+}
+
 
 /*
 =============================================
