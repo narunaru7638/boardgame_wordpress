@@ -427,7 +427,6 @@ footer{
 
 /*ボトムグローバルナビゲーション*/
 #bottom-nav{
-    overflow: hidden;
     color: rgba(255,255,255,1.00);
     width: 100%;
     float: left;
@@ -440,6 +439,7 @@ footer{
 .bottom-nav-area{
     width: 900px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 #bottom-nav h1{
