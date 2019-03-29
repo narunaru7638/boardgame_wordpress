@@ -418,7 +418,7 @@ EVENTSページ
 =============================================
 */
 
-.event-area,.about-area{
+.event-area{
     width: 53%;
     margin: 0px auto;
     padding: 0px 0px;
@@ -440,8 +440,7 @@ EVENTSページ
     text-align: center;
 } 
 
-.event-area p,
-.about-area p{
+.event-area p{
     padding: 30px 30px 30px;
     color: rgba(0,0,0,0.54);
 }
@@ -459,6 +458,14 @@ EVENTSページ
 ABOUTページ
 =============================================
 */
+.about-area{
+    width: 53%;
+    margin: 0px auto;
+    padding: 0px 0px;
+    background-color: rgba(255,255,255,1.00);
+
+}
+
 .prof-area{
     overflow: hidden;
 }
@@ -474,6 +481,11 @@ ABOUTページ
     float: left;
     width: 55%;
 }
+.about-area p{
+    padding: 0px 20px 0px;
+    color: rgba(0,0,0,0.54);
+}
+
 
 .about-area th,
 .about-area td{
@@ -492,6 +504,116 @@ ABOUTページ
 .about-area table{
 /*    margin-bottom: 30px;*/
     padding: 0 0 30px
+}
+
+/*
+=============================================
+PRODUCTSページ
+=============================================
+*/
+
+.products-area{
+    width: 53%;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,1.00);
+}
+
+.products-area h2{
+    background-color: rgba(0,0,0,0.87);
+    color: rgba(255,255,255,1.00);
+    text-align: center;
+    padding: 10px;
+}
+
+.products-area h3{
+    font-size: 25px;
+    padding-top:30px;
+    margin-bottom: 15px
+}
+
+.one-product-area img{
+    width: 40%;
+    float: left;
+    padding: 30px 15px 30px 0;
+}
+
+.product-detail a,
+.product-detail a:active,
+.product-detail a:focus{
+    color: rgba(0,0,0,0.87);
+}
+
+.product-detail a:hover{
+    text-decoration: underline;
+    color: #08B9D4;
+}
+
+.product-detail p{
+    color: rgba(0,0,0,0.54);
+    padding: 0 15px 15px;
+}
+
+.product-detail li{
+    float: left;
+    list-style: none;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.product-detail i{
+    margin-right: 5px;
+}
+
+.product-detail ul{
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.product detail{
+    float: left;
+}
+
+.one-product-area{
+    overflow: hidden;
+    border-bottom: solid 2px rgba(0,0,0,0.12);
+}
+
+/*
+=============================================
+NEWSページ
+=============================================
+*/
+.news-area{
+    width: 53%;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,1.00);
+    overflow: hidden;
+}
+.news{
+    background-color: rgba(0,0,0,0.87);
+    color: rgba(255,255,255,1.00);
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.article-area{
+    width:60%;
+    float: left;
+}
+
+.one-article-area img{
+    width:50%;
+}
+
+.parmanent-link{
+    float: left;
+    width:30%;
+    border-left: 1px solid rgba(0,0,0,0.54);
+}
+
+.parmanent-link li{
+    list-style: none;
 }
 /*
 =============================================
