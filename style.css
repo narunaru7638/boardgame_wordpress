@@ -1,5 +1,5 @@
 /*
-Theme Name: サンプルテーマ
+Theme Name: ボードゲームサークル
 Author: なる
 Description: ボードゲームサークル用に作ったテーマです。
 */
@@ -598,23 +598,124 @@ NEWSページ
 }
 
 .article-area{
-    width:60%;
+    width: 75%;
     float: left;
+    border-right: 1px solid rgba(0,0,0,0.54); 
+
 }
+
+.article-area{
+    width: 75%;
+    float: left;
+    border-right: 1px solid rgba(0,0,0,0.54); 
+}
+.article-area h3{
+    font-size: 25px;
+}
+
+.article-area p{
+    color: rgba(0,0,0,0.54);
+    margin: 0px 15px 30px;
+}
+
+.one-article-area{
+    margin:  0 15px 0;
+}
+
+.one-article-area{
+    border-bottom:1px solid rgba(0,0,0,0.54);
+}
+
 
 .one-article-area img{
-    width:50%;
+    width: 100%;
+    padding: 15px;
+    display: block;
+    box-sizing: border-box;
 }
 
+
+.one-article-area ul{
+    margin-left: 15px;
+}
+
+.one-article-area li{
+    float: left;
+    list-style: none;
+    margin: 0 15px 0 0;
+    color: rgba(0,0,0,0.54);
+}
+.one-article-area .article-title{
+    margin: 15px 15px 0px;
+}
+
+/*パーマネントリンク*/
 .parmanent-link{
     float: left;
-    width:30%;
-    border-left: 1px solid rgba(0,0,0,0.54);
+    width: 24%;
+}
+
+.parmanent-link h3{
+    margin: 30px 15px 0;
+}
+
+.parmanent-link h3:first-child{
+    margin: 15px 15px 0;
 }
 
 .parmanent-link li{
     list-style: none;
+    border-bottom: 1px dotted rgba(0,0,0,0.57);
+    margin: 0px 10px 5px 15px;
+    font-size: 15px;
 }
+
+.parmanent-link a,
+.parmanent-link a:active,
+.parmanent-link a:focus{
+    color: rgba(0,0,0,0.87);
+}
+
+.parmanent-link a:hover{
+    text-decoration: underline;
+    color: #08B9D4;
+}
+/*ページネーション*/
+.pagination li{
+    float: left;
+    list-style: none;
+    font-size: 20px;
+}
+
+.pagination ul{
+    overflow: hidden;
+    margin: 30px 30px 40px;
+}
+
+.pagination a,
+.pagination a:active,
+.pagination a:focus{
+    color:rgba(0,0,0,0.87);
+    font-size: 18px;
+    padding: 2px;
+}
+
+.pagination a:hover{
+    text-decoration: underline;
+    color: #08b9d4;
+}
+
+.one-article-area a,
+.one-article-area a:active,
+.one-article-area a:focus{
+    color: rgba(0,0,0,0.87);
+}
+
+.one-article-area a:hover{
+    text-decoration: underline;
+    color:#08b9d4;
+}
+
 /*
 =============================================
 フッター
