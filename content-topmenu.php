@@ -13,6 +13,7 @@
     </div> 
     <!-- トップグローバルナビゲーション-->
     <nav id="top-nav" class="site-width">
+<!--
         <ul>
             <li><a href="about.php"><i class="fas fa-question-circle"></i>ABOUT</a></li>
             <li><a href="products.php"><i class="fas fa-gift"></i>PRODUCTS</a></li>
@@ -20,5 +21,12 @@
             <li><a href="news.php"><i class="fas fa-newspaper"></i>NEWS</a></li>
             <li><a href="contact.php"><i class="fas fa-envelope"></i>CONTACT</a></li>
         </ul>
+-->
+            <?php wp_nav_menu( array(
+                'theme_location' => 'topmenu',
+                'container' =>'',
+                'menu_class' =>'',
+                'items_wrap' =>'<ul>%3$s</ul>'));
+            ?>
     </nav>
 </header>

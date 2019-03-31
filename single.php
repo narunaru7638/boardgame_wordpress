@@ -12,8 +12,8 @@
                     
 
 
-                    <?php if(have_posts()): ?>
-                    <?php while(have_posts() : the_post(); )?>
+                    <?php if(have_posts()) : ?>
+                    <?php while (have_posts()) : the_post(); ?>
                         <div class="one-article-area">
                             <h3 class="article-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                             <ul>
@@ -39,7 +39,7 @@
 
 
                     <!--コメント -->
-                    <?php comments_template(); >
+                    <?php comments_template(); ?>
 
                     <?php else : ?>
 
