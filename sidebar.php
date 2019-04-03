@@ -1,4 +1,5 @@
 <div class="parmanent-link">
+<!--
     <h3><a href="">新着記事</a></h3>
     <ul>
         <li><a href="">
@@ -20,6 +21,7 @@
         <li><a href="">2019.3.3</a></li>
 
     </ul>
-
+-->
+    <?php dynamic_sidebar( 'my_sidebar' ); ?>
 
 </div>

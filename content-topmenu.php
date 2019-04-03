@@ -7,9 +7,16 @@
                 <img src="<?php header_image(); ?>" class="img-responsive" alt="<?php bloginfo( 'name' ); ?>">
             </a>
         </h1>
-        <p class="cicle-detail">いろいろ作っているサークルです</p>
+        <?php dynamic_sidebar( 'sight_sub_title' ); ?>
+
+<!--        <p class="cicle-detail">いろいろ作っているサークルです</p>-->
+<!--
         <a href="">
             <i class="fab fa-twitter-square"></i></a>
+-->
+        <?php dynamic_sidebar( 'sns_link' ); ?>
+
+            
     </div> 
     <!-- トップグローバルナビゲーション-->
     <nav id="top-nav" class="site-width">
